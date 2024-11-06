@@ -65,9 +65,10 @@ p {
 
 .nav-link {
     transition: background-color 0.3s ease;
+    border-radius: 6px;
 }
 
-.nav-link:hover {
+.nav-item:hover {
     background-color: rgb(150, 7, 102);
 }
 
@@ -78,6 +79,13 @@ p {
 
 }
 
-.container {
-    width: 50%;
+
+.nav-item{
+    border-radius: 6px;
+}
+.tamano{
+    width: 700px;
+    margin: 0 auto;
+    border: 3px rgba(0, 0, 0, 0.192) solid;
+    padding: 10px;
 }
