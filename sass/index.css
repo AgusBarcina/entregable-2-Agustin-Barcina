@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(191, 134, 207);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+body form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+body form input,
+body form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+  margin: 3px;
+  display: inline-block;
+  background-color: rgba(237, 100, 203, 0.589);
+}
+
+.img1,
+.footer,
+.ofertas,
+.productos {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: rgb(7, 0, 0);
+}
+
+.card {
+  background-color: transparent;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  color: black;
+}
+
+.nav-item {
+  border-radius: 6px;
+}
+.nav-item:hover {
+  background-color: rgb(150, 7, 102);
+}
+
+.nav-link {
+  transition: background-color 0.3s ease;
+}
+
+.mb-3 {
+  margin: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+.tamano {
+  width: 700px;
+  margin: 0 auto;
+  border: 3px rgba(0, 0, 0, 0.192) solid;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  form {
+    padding: 10px;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.nav-link {
+  transition: all 0.3s ease;
+}
+.nav-link:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+form.tamano {
+  animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.btn:hover {
+  animation: bounce 0.5s;
+  transition: 0.3s ease;
+}
+
+body {
+  background-color: rgb(191, 134, 207);
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes scaleUp {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+.card {
+  animation: fadeIn 0.5s ease-in-out;
+  transition: transform 0.5s;
+}
+.card:hover {
+  animation: scaleUp 0.5s ease-in-out;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+.footer h3 {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/*# sourceMappingURL=index.css.map */
