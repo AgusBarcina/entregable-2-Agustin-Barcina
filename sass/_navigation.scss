@@ -1,0 +1,16 @@
+.nav-item {
+    border-radius: 6px;
+
+    &:hover {
+        background-color: $link-hover-bg-color;
+    }
+}
+
+.nav-link {
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #007bff;
+        transform: scale(1.1);
+    }
+}

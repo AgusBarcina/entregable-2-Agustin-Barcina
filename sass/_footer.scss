@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+
+    h3 {
+        animation: fadeIn $animation-duration ease-in-out;
+    }
+
+    .enviar {
+        text-align: center;
+    }
+}

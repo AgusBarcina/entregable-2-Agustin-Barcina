@@ -1,3 +1,12 @@
+@use 'navigation';
+@use 'animations';
+@use 'base';
+@use 'components';
+@use 'footer';
+@use 'forms';
+@use 'mixins';
+@use 'styles';
+@use 'variables';
 $primary-bg-color: rgb(191, 134, 207);
 $link-hover-bg-color: rgb(150, 7, 102);
 $card-border-color: rgba(0, 0, 0, 0.192);
@@ -32,6 +41,7 @@ body {
         textarea {
             @include input-styles;
         }
+
     }
 }
 
@@ -238,5 +248,8 @@ $animation-duration: 0.5s;
 
     h3 {
         animation: fadeIn $animation-duration ease-in-out;
+    }
+    .enviar{
+    text-align: center;
     }
 }

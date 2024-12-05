@@ -1,0 +1,6 @@
+@mixin input-styles {
+    margin-bottom: 10px;
+    padding: $input-padding;
+    border: $input-border;
+    border-radius: $border-radius;
+}

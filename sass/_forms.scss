@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+
+    input,
+    textarea {
+        @include input-styles;
+    }
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+}

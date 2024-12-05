@@ -1,0 +1,16 @@
+.card {
+    background-color: transparent;
+    animation: fadeIn $animation-duration ease-in-out;
+    transition: transform $animation-duration;
+
+    &:hover {
+        animation: scaleUp $animation-duration ease-in-out;
+    }
+}
+
+.btn {
+    &:hover {
+        animation: bounce 0.5s;
+        transition: 0.3s ease;
+    }
+}
